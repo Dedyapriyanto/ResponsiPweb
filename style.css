@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#availableItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item-box {
+    background: #eef;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 200px;
+    box-sizing: border-box;
+}
+
+.addToCart {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/* Style untuk resi */
+.receipt {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
